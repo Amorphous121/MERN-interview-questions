@@ -1,0 +1,175 @@
+1.  What is the output of the below code ?
+        
+        let age = 50;
+        function printAge() {
+        console.log(age);
+        let age = 30;
+        }
+
+        printAge();
+
+
+    ==========================================
+
+        function print() {
+            function log() {
+            console.log(age);
+            }
+            const age = 20;
+            log();
+        }
+
+        print(); 
+
+-------------------------------------------------------------
+
+2.  How to deepFreez the below object. 
+
+        let obj = {
+            key1: "val1",
+            key2: "val2",
+            key3: ["val3", "val4", "val5"]
+        };
+
+
+---------------------------------------------------------------
+
+3.  Create A function to demonstatre Memoization in Javascript.
+
+    const getSquareFunction = () => {
+        let cache = {};
+        return (x) => {
+            if (!cache[x]) {
+                console.log("NOT returning data from cache");
+            cache[x] = x ** 2;
+                return cache[x];
+        }
+        console.log("Returning data from cache");
+        return cache[x];
+        };
+    };
+
+---------------------------------------------------------------
+
+4. Create a counter function which gives you the next number of it's previous number.
+
+    const getCounter = () => {
+        let c = 0;
+        return () => {
+            c += 1;
+            return c;
+        }
+    }
+
+---------------------------------------------------------------
+
+5.  What is the output of following.
+
+        for(var a = 0; a < 5; a++) { 
+            setTimeout(() => { 
+                console.log(a); 
+            }, 1000);
+        } 
+
+---------------------------------------------------------------
+
+6.  Write a function to reverse the given input [string/number]
+    without using build in function.
+
+    const reverse = (input) => {
+        if (typeof input === "string") {
+            let chars = [];
+            let temp = input;
+            while (temp) {
+                chars.push(temp[temp.length - 1]);
+                temp = temp.slice(0, temp.length - 1);
+            }
+            return chars.join('');
+        }
+        if (typeof input === "number") {
+            let sum = 0;
+            let temp = input;
+            while(temp > 0) {
+                sum = sum * 10 + (temp % 10);
+                temp = parseInt(temp / 10);
+            }
+            return sum;
+        }
+    }
+
+
+---------------------------------------------------------------
+7.  Guess the output of below code snippet.
+
+    function login () {
+        console.log(this);
+    }
+
+    const user = {
+        name: "Prathamesh",
+        login () {
+            console.log(this);
+        },
+        register: () => {
+            console.log(this);
+        }
+    }
+
+    const userLogin = user.login;
+
+    console.log(login());
+    console.log(new login());
+    console.log(user.login());
+    console.log(user.register());
+    console.log(userLogin());
+
+---------------------------------------------------------------
+
+8.  Guess the output of following
+
+        const printString = (str, cb) => {
+            setTimeout(() => {
+                console.log(str);
+                cb();
+            }, 1000);
+        };
+
+        printString("String 1", () => {
+            printString("String 2", () => {
+                printString("String 3", () => {});
+            });
+        });
+
+    ==========================================
+
+        const printString = (str) => {
+        setTimeout(() => {
+                console.log(str);
+            }, 1000);
+        };
+
+        printString("String 1");
+        printString("String 2");
+        printString("String 3");
+
+---------------------------------------------------------------
+
+9. Destructure the message property from below object;
+
+    let error = {
+        details: [
+            {
+                message: "Something went wrong"
+            },
+            {
+                message: "First name should be min of length 3"
+            },
+            {
+                data: []
+            }
+        ]
+    }
+
+---------------------------------------------------------------
+
+10. 
