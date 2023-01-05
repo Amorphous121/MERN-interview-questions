@@ -1,0 +1,21 @@
+1.  What is an error-first callback ?
+2.  If Node.js is single threaded then how it handles concurrency?
+3.  What is Event Loop ?
+4.  What are streams?
+5.  How can you listen on port 80 with Node?
+6.  What are middlewares in Express ? What are types of them ?
+7.  How can we set cookie in response in expressjs ?
+8.  What is cors error? and when does it occures ?
+    --> If it's to a different domain
+        If it's to a different port
+        If it's to a different subdomain
+        If it's to a different protocol.
+9.  How to use logging in express apps ?
+10. Difference between SQL & NoSQL
+11. What are the sql joins
+12. What are the different ORM's you have used ?
+13. Are you aware about Graphql ?
+14. Socket.IO
+15. What are pros and cons of Indexing ?
+16. What is ACID properties in DATABASE ?
+17. Are you been into depolyments ?

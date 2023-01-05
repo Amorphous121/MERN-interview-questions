@@ -1,0 +1,12 @@
+1.  Why TypeScript ?
+2.  What is Void in TypeScript ?
+3.  What is unknown type? What are typeguards in TypeScript ?
+4.  What is the purpose of never type ?
+5.  What are enums in TypeScript ?
+6.  What is the tsconfig.json ?
+7.  What is an Interface ? how does it differ from type ?
+8.  What are abstract classes ? how does it differ from interface ?
+9.  What is union type ?
+10. What is intersection types ?
+11. What are type aliases ?
+12. What is touple in TypeScript ?

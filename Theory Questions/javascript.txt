@@ -16,3 +16,4 @@
 16. Higher Order functions ?
 17. Deep copy and shallow copy ?
 18. What is the technical difference between Object and Array ?
+19. What is arguments keyword in Javascript ?

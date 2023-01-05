@@ -1,0 +1,7 @@
+1.  Can you introduce yourself ?
+2.  Explain previous projects ?
+3.  What was your roles and responsibility in previous project ?
+4.  What was team size of your recent project ?
+5.  Which project/task most challenging ?
+6.  Rate yourself in <Tech> ?
+7.  How do you update yourself in technology ?

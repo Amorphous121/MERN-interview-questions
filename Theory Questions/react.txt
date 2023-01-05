@@ -1,0 +1,19 @@
+1.  What are state and props ?
+2.  What are class compoenents ?
+3.  What are function componenents ?
+4.  What are hooks ?
+5.  Pure components ?
+6.  Redux, flux, RTK ?
+7.  Higher order components ?
+8.  React component life cycle ?
+9.  Different between class and functional components ?
+10. React Router ?
+11. How to style react componets ?
+12. Virtual DOM ?
+13. React advantages ?
+14. Thunk, Saga ?
+15. Controlled and uncontrolled components ?
+16. Error boundries ?
+17. Lazy loading / server side rendering ?
+18. useMemo, useCallback, useRef, useReducer (Advanced Hooks) ?
+19. Render props ?
